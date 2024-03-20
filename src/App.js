@@ -1,10 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import {Route, Routes} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import  Landing  from './pages/landing';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>testing</h1>
+    <Navbar/>
+    <Routes>
+      <Route path='/' element={<Landing/> }/>
+    </Routes>
+    <Footer/>
     </div>
   );
 }
