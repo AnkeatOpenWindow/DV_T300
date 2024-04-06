@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DV_T300/static/css/main.04efc164.css",
-    "main.js": "/DV_T300/static/js/main.347f3bd1.js",
+    "main.js": "/DV_T300/static/js/main.be78c305.js",
     "static/media/Header_background.png": "/DV_T300/static/media/Header_background.04f9c7dc1c201f791d87.png",
     "static/media/Apple iPhone 15 Pro White Titanium 1.png": "/DV_T300/static/media/Apple iPhone 15 Pro White Titanium 1.35dc4514112461073c94.png",
     "static/media/vecteezy_astronauta-png-grafico-clipart-diseno_20003935 1.png": "/DV_T300/static/media/vecteezy_astronauta-png-grafico-clipart-diseno_20003935 1.83b2192fc36349edd7ac.png",
@@ -9,10 +9,10 @@
     "static/media/mars (3) 1.png": "/DV_T300/static/media/mars (3) 1.32d271f0054305e4fe7a.png",
     "index.html": "/DV_T300/index.html",
     "main.04efc164.css.map": "/DV_T300/static/css/main.04efc164.css.map",
-    "main.347f3bd1.js.map": "/DV_T300/static/js/main.347f3bd1.js.map"
+    "main.be78c305.js.map": "/DV_T300/static/js/main.be78c305.js.map"
   },
   "entrypoints": [
     "static/css/main.04efc164.css",
-    "static/js/main.347f3bd1.js"
+    "static/js/main.be78c305.js"
   ]
 }
