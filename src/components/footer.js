@@ -22,6 +22,7 @@ function Footer() {
         setColor2("white");
     };
 
+
     return (
         <div className="App">
             <div className="footer">
@@ -32,26 +33,65 @@ function Footer() {
                             <input
                                 className="field1"
                                 value={value1}
-                                style={{ color: color1 }} // Dynamically set text color
                                 onClick={handleClick1}
-                                onChange={(e) => setValue1(e.target.value)} />
-
+                                onChange={(e) => setValue1(e.target.value)}
+                                style={{ color: color1 }} /> {/* Apply color style */}
                             <input
                                 className="field2"
                                 value={value2}
-                                style={{ color: color2 }} // Dynamically set text color
                                 onClick={handleClick2}
-                                onChange={(e) => setValue2(e.target.value)} />
-
-
+                                onChange={(e) => setValue2(e.target.value)}
+                                style={{ color: color2 }} /> {/* Apply color style */}
                             <button className="button2" type="submit">Join newsletter</button>
                         </div>
                     </form>
                 </div>
                 <div className="Footer2" style={{ display: 'flex' }}>
-                    {/* Your other content */}
+                    <div>
+                        <img
+                            src={Logo} // Use the imported image here
+                            alt="" width={66} height={66} />
+                        <p>Your Name © 2024</p>
+                    </div>
+                    <div style={{ marginLeft: '735px' }}>
+                        <p><b>Links</b><br /></p>
+                        <a className="nav-link" href="#Home">Home</a><br />
+                        <a className="nav-link" href="#Destinations">Destinations</a> <br />
+                        <a className="nav-link" href="#GetApp">Mobile App</a>  <br />
+                    </div>
+                    <div style={{ marginLeft: '86px' }}>
+                        <p><b>Follow us</b></p>
+                        <div style={{ display: 'flex', }}>
+                            <div style={{ marginRight: '12px', marginBottom: '10px' }}>
+                                <img
+                                    src={Instagram} // Use the imported image here
+                                    alt="" width={37} height={37} />
+                            </div>
+                            <div>
+                                <img
+                                    src={Tiktok} // Use the imported image here
+                                    alt="" width={37} height={37} />
+                            </div>
+
+                        </div>
+                        <div style={{ display: 'flex', }}>
+                            <div style={{ marginRight: '12px' }}>
+                                <img
+                                    src={Facebook} // Use the imported image here
+                                    alt="" width={37} height={37} />
+                            </div>
+                            <div>
+                                <img
+                                    src={Twitter} // Use the imported image here
+                                    alt="" width={37} height={37} />
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
+
+
         </div>
     );
 }
