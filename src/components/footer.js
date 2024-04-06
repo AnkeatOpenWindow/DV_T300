@@ -43,6 +43,7 @@ function Footer() {
                                 onClick={handleClick2}
                                 onChange={(e) => setValue2(e.target.value)} />
 
+
                             <button className="button2" type="submit">Join newsletter</button>
                         </div>
                     </form>
