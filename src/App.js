@@ -12,9 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route path='/landing' element={<Landing />} />
-      </Routes>
+      <Landing />
       <Footer />
     </div>
   );
